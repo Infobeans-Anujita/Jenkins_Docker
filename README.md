@@ -68,3 +68,8 @@ docker build -t imagename:${BUILD_NUMBER} .
 
 ```
 docker run --rm -e BROWSER=browser -v $(pwd)/local/test:/container/test -v $(pwd)local_/scripts:/container/scripts -v $(pwd)/local_path_results:/container_path_results imagename:${BUILD_NUMBER}
+```
+
+## References for Integration of Docker and Jenkins:
+
+[Jenkins and Docker Integration](http://www.therightcode.net/use-docker-jenkins-to-run-github-tests/)
